@@ -152,12 +152,23 @@ li a {
     margin-right: 1rem;
     
 }
-.hero-text h1 , h2 {
+.hero-texr{
+    line-height: 1.4;
+   margin: 0;
+}
+.hero-text h1{
    font-size: 55px;
    font-weight: 700;
    line-height: 1.4;
    margin: 0;
 }
+.hero-text  h2{
+   font-size: 55px;
+   font-weight: 700;
+   line-height: 1.4;
+   margin: 0;
+}
+
 
 .hero-text p {
    font-size: 18px;
@@ -217,8 +228,14 @@ li a:hover{
     font-weight: 600;
 }
 .div-content-up h2,h3{
+     margin:0;
+    line-height: 1.2;
+    font-size: 29px;
+    margin-left: 2rem;
+    font-weight: 600;
    color: #000000;
 }
+
 
 .div-content-up h1{
     margin:0;
@@ -285,4 +302,10 @@ li a:hover{
     justify-items: center;
     margin-top: 7rem;
     gap: 2rem;
+}
+.e-hotspot__outer-circle{
+    background-color: #FF9400;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
 }
