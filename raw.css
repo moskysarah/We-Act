@@ -1,3 +1,4 @@
+/* trunk-ignore-all(prettier) */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap');
 
 body {
@@ -308,4 +309,114 @@ li a:hover{
     border-radius: 50%;
     width: 10px;
     height: 10px;
+}
+
+
+/* map section */
+
+.section-map{
+    height: 700px;
+}
+
+
+.div-content-section-map h1,h2,h3{
+    margin:0;
+    line-height: 1.2;
+    font-size: 29px;
+    margin-left: 2rem;
+    font-weight: 600;
+}
+.div-content-section-map h2,h3{
+     margin:0;
+    line-height: 1.2;
+    font-size: 29px;
+    margin-left: 2rem;
+    font-weight: 600;
+   color: #000000;
+}
+
+
+.div-content-section-map h1{
+    margin:0;
+    line-height: 1.2;
+    font-size: 29px;
+    margin-left: 2rem;
+    font-weight: 600;
+}
+
+.div-content-section-map p{
+    margin-left: 2rem;
+}
+
+.paragraph-section-map-1{
+    padding-top: 1rem;
+}
+.paragraph-section-map-2{
+    padding-top: 12px;
+}
+
+.div-button-section-map button{
+    border-radius: 5px;
+    background-color: #FF9400;
+    border: 0;
+    width: 220px;
+    height: 36px;
+    margin-left: 2rem;
+}
+
+.section-background-black-online{
+    background-color: #1B171B;
+    justify-content: center;
+    display: flex;
+    height: 50rem;
+
+}
+
+.div-img-background-black-online img{
+    width: 438px;
+    height: 485px;
+    border-radius: 15px;
+    padding-top: 14rem;
+    padding-right: 2rem;
+    
+}
+.flex-link-a {
+    gap:4rem;
+    color: #fff;
+    padding-left: 14rem;
+    padding-top: 4rem;
+}
+
+.flex-link-a h2{
+    color: #fff;
+    font-size: 26px;
+}
+
+span {
+    gap: 4rem;
+    color: #8B8A8D;
+    font-size: 16px;
+}
+
+span:hover{
+    color:2px solid #FF9400;
+    cursor: pointer;
+}
+
+.rawbank-online{
+    padding-top: 14rem;
+    padding-left: 1rem;
+}
+.rawbank-online h2{
+   font-size: 27px;
+}
+
+.rawbank-online p{
+    color: #fff;
+    font-size: 16px;
+    padding-left: 1.8rem;
+}
+.div-button-a a{
+    color: #FF9400;
+    padding-left: 1.8rem;
 }
